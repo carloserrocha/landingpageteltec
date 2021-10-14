@@ -3,147 +3,60 @@
 
 <head>
     <title>Universidade Teltec</title>
-    <link href="teltec.jpg" rel="shortcut icon" type="image/x-icon">
+    <link href="icon_01.png" rel="shortcut icon" type="image/x-icon">
     <meta charset="UTF-8">
     <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            font-family: Roboto;
-        }
-
         body {
-            background: #06519C;
-            font-family: Roboto;
+            background-image: url(fundo.png);
+            align-self: center;
+            background-size: cover;
         }
 
-
-        @media (max-width: 991.98px) {
-            .banner-area {
-                height: 100vh;
-                backgroud: #06519C;
-                background-size: cover;
-            }
-
-            .content-area {
-                height: 100%;
-                justify-content: center;
-            }
-
-            .content {
-                height: 100%;
-                text-align: center;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-
-            .btn {
-                border: none;
-                outline: none;
-                background: #06869C;
-                padding: 20px 100px;
-                margin-top: 40px;
-                border-radius: 30px;
-                color: #ffffff;
-                font-size: 26px;
-                font-weight: bolder;
-                cursor: pointer;
-                font-family: Roboto;
-            }
-
-            .img {
-                align-self: center;
-                max-width: 500px;
-                max-height: 200px;
-            }
-
-            h1 {
-                margin-top: 20px;
-                font-size: 80px;
-                color: #fff;
-                font-weight: bold;
-            }
-
-            p {
-                margin-top: 20px;
-                font-size: 30px;
-                font-weight: bolder;
-                color: #ffffff;
-            }
+        .content {
+            height: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
-        @media (min-width: 992px) {
-            .banner-area {
-                width: 100%;
-                height: 100vh;
-                backgroud: #06519C;
-                background-size: cover;
-            }
+        .img {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 10px;
+            margin-top: auto;
+            align-self: center;
+            max-width: 500px;
+            max-height: 200px;
+        }
 
-            .content-area {
-                height: 100%;
-                display: flex;
-                justify-content: space-between;
-            }
-
-            .content {
-                position: absolute;
-                left: 30px;
-                top: 30px;
-                text-align: left;
-                display: flex;
-                flex-direction: column;
-            }
-
-            .btn {
-                border: none;
-                outline: none;
-                padding: 20px 80px;
-                margin-top: 40px;
-                color: #ffffff;
-                font-size: 26px;
-                font-weight: bolder;
-                cursor: pointer;
-                background: #06869C;
-                border-radius: 30px;
-                font-family: Roboto;
-            }
-
-            .img {
-                padding-top: 30px;
-                padding-bottom: 30px;
-            }
-
-            h1 {
-                font-size: 60px;
-                color: #fff;
-            }
-
-            p {
-                font-size: 30px;
-                font-weight: bold;
-                color: #ffffff;
-            }
+        .img2 {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 10px;
+            margin-top: auto;
+            align-self: center;
+            max-width: 500px;
+            max-height: 200px;
         }
     </style>
 </head>
 
 <body>
-    <div class="banner-area">
-        <div class="content-area">
-            <div class="content">
-                <h1>BEM-VINDO</h1>
-                <img class="img" src="teltec.jpg">
-                <p>ACESSAR COMO:</p>
-                <a
-                    href="https://iam.keepsdev.com/auth/realms/keeps/protocol/openid-connect/auth?client_id=konquest&kc_idp_hint=adfs-idp-teltec&redirect_uri=https://konquest.keepsdev.com&response_mode=fragment&response_type=code&scope=openid&state=81da23dc-45cb-45f0-9873-c5ebd6698714">
-                    <button class="btn">SOLUTION</button></a>
-                <a href="https://konquest.keepsdev.com"><button class="btn">TERCEIRIZADO</button></a>
-            </div>
-        </div>
+
+    <div class="content">
+        <img class="img2" src="logo.png">
+        <a
+            href="https://iam.keepsdev.com/auth/realms/keeps/protocol/openid-connect/auth?client_id=konquest&kc_idp_hint=adfs-idp-teltec&redirect_uri=https://konquest.keepsdev.com&response_mode=fragment&response_type=code&scope=openid&state=81da23dc-45cb-45f0-9873-c5ebd6698714">
+            <img class="img" src="solutions.png"></a>
+        <a href="https://konquest.keepsdev.com"><img class="img" src="parceiros.png"></a>
+        <img class="img" src="logo_teltec.png">
     </div>
+
+
+
 
 
 </body>
